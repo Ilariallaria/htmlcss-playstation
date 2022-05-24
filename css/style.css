@@ -1,0 +1,62 @@
+/* RESET */
+body{
+    font-family: Arial, sans-serif;
+}
+header{
+    font-family: Helvetica, arial, sans-serif;
+}
+
+
+/* COMMON */
+
+
+
+/* -*-*-*-*-*-*-*-*-*-*-*-*HEADER-*-*-*-*-*-*-*-*-*-*-*-*  */
+
+/* top */
+.ms_header-top{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    padding: 0.1rem;
+}
+/* bottom */
+.ms_header-bottom{
+    background-color: lightskyblue;
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -*-*-*-*-*-*-*-*-*-*-*-*-MAIN-*-*-*-*-*-*-*-*-*-*-*-*-*-* */
+
+
+
+
+
+@media all and (min-width: 576px){
+
+}
+
+@media all and (min-width: 768px){
+
+}
+
+@media all and (min-width: 1400px){
+    
+}
