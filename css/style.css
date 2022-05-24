@@ -4,11 +4,20 @@ body{
 }
 header{
     font-family: Helvetica, arial, sans-serif;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
 }
 
 
 /* COMMON */
-
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 
 
 /* -*-*-*-*-*-*-*-*-*-*-*-*HEADER-*-*-*-*-*-*-*-*-*-*-*-*  */
@@ -16,20 +25,47 @@ header{
 /* top */
 .ms_header-top{
     background-color: black;
+    height: 35px;
     color: white;
     font-size: 20px;
-    text-align: right;
-    padding: 0.1rem;
+    position: relative;
 }
+
+.logo-sony{
+    width: 100px;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
 /* bottom */
 .ms_header-bottom{
-    background-color: lightskyblue;
+    background-color: lightpink;
     height: 80px;
 }
 
+.logo-ps{
+    width: 65px;
+    height: 70px;
+    /* padding-top: 0.5rem; */
 
+}
 
+.burgher{
+    font-size: 35px;
+    text-align: right;
+    line-height: 4.5rem;
+    color: gray;
+}
+.burgher:hover{
+    cursor: pointer;
+}
 
+.burgher i{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+}
 
 
 
