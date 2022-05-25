@@ -212,18 +212,48 @@ header ul{
 }
 
 .play h2{
-    font-size: 36px;
+    font-size: 40px;
 }
 .play p{
     color: gray;
     font-size: 18px;
     font-weight: 600;
 }
+/* Section Console */
+.console{
+    padding-top: 2.5rem;
+}
+.console h2{
+    font-size: 40px;
+}
+.console p{
+    color: gray;
+    font-size: 18px;
+    font-weight: 600;
+}
 
+.ms_console-btn{
+    color: white;
+    background-color: #0070d1;
+    border-color: #0070d1;
+    border-radius: 25px;
+}
 
+.ms_opacity{
+    filter:opacity(0.7);
+}
+.ms_selected{
+    border-bottom: 1px solid #0070d1;
+}
 
+.ms_object{
+    display: none;
+    font-weight: 700;
+}
 
-
+.ms_trade{
+    font-size: 10px;
+}
 
 
 
@@ -249,6 +279,9 @@ header ul{
 }
 
 @media all and (min-width: 768px){
+    .ms_object{
+        display: block;
+    }
 
 }
 
