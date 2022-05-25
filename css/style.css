@@ -151,7 +151,7 @@ header ul{
 
 .sponsored-content{
     width: 93%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     position: absolute;
     bottom: 3rem;
     left: 0.7rem;
@@ -160,7 +160,7 @@ header ul{
 .game-name{
     width: 50%;
     height: auto;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .game-info h2{
@@ -181,7 +181,8 @@ header ul{
 }
 /* ----------------------------------------------------------- */
 
-.figurine{
+/* -------------------------------------Section Cards */
+.sect-card{
     padding: 2.5rem 0;
 }
 
@@ -193,10 +194,31 @@ header ul{
     border-radius: 0.8rem;
 }
 
+/* ---------------------------------------Section Play */
 
+.play{
+    text-align: center;
+}
 
+.play-cont{
+    width: 80%;
+    margin: 0 auto;
+}
 
+.play h4{
+    color: #0070d1;
+    font-size: 14px;
+    font-weight: 700;
+}
 
+.play h2{
+    font-size: 36px;
+}
+.play p{
+    color: gray;
+    font-size: 18px;
+    font-weight: 600;
+}
 
 
 
