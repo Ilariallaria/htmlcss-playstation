@@ -370,13 +370,48 @@ header ul{
 
 /* -*-*-*-*-*-*-*-*-*-* FOOTER *-*-*-*-*-*-*-*-*-*-*-*  */
 
+footer{
+    background-color:#0070d1;
+    color: white;
+    font-size: 13px;
+}
 
+.footer-logo-ps{
+    padding-top: 3.4rem;
+    padding-bottom: 2rem;
+}
 
+.footer-list{
+    padding: 0 0;
+}
 
+.footer-list li{
+padding: 10px;
+}
 
+.ms_logo-ps{
+    color: white;
+    font-size: 85px;
+}
 
+sub{
+    margin-left: -8px;
+    font-size: 10px;
+}
 
+.ms_logo-globe{
+    font-size: 20px;
+    padding-right: 10px;
+}
 
+.logo-sie{
+width: 25%;
+}
+
+footer a{
+ text-decoration: underline;
+ cursor: pointer;
+}
 
 
 
@@ -387,6 +422,22 @@ header ul{
 
 
 /* -*-*-*-*-*-*-*-*-*-*-*-* SCREEN *-*-*-*-*-*-*-*-*-*-*-*/
+@media all and (min-width: 576px){
+
+    footer{
+        font-size: 16px;
+    }
+    .ms_logo-ps{
+        font-size: 105px;
+
+    }
+    .ms_logo-globe{
+        font-size: 25px;
+
+    }
+
+}
+
 @media all and (min-width: 768px){
     .ms_object{
         display: block;
@@ -407,6 +458,10 @@ header ul{
         max-width: 768px;
         margin: 0 auto;
     }
+    .footer-list ul{
+        padding-top: 4rem;
+    }
+    
 }
 
 
@@ -423,6 +478,17 @@ header ul{
 
     .ms_experience-img-sx{
         padding-top: 4.5rem;
+    }
+
+    footer{
+        font-size: 13px;
+    }
+    .ms_logo-ps{
+        font-size: 85px;
+
+    }
+    .ms_logo-globe{
+        font-size: 20px;
     }
 
 
