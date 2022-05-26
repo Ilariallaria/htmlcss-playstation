@@ -41,8 +41,20 @@ li{
 .chevron-down:hover{
 color: #0070d1;
 }
-/*---------------------------- BANNER-------------------- */
 
+.ms_card{
+    padding: 0.5rem 0;
+}
+
+.ms_card img{
+    border-radius: 0.8rem;
+}
+
+
+
+/*---------------------COMMON BANNER-------------------- */
+
+/*-----SPONSORED--per section Returnal e It-takes-two */
 .ms_sponsored{
     width: 100%;
     height: 570px;
@@ -82,6 +94,57 @@ color: #0070d1;
     border-radius: 25px;
     font-weight: bold;
 }
+/*---------EXPERIENCE--per section Plus e Play-Now */
+.ms_experience{
+    height: 350px;
+}
+
+.ms_experience-img-sx{
+    width: 60%;
+    height: 100%;
+    padding-top: 3.5rem;
+}
+
+.ms_experience-card p{
+    padding: 2rem 0;
+}
+.ms_experience-btn{
+    background-color: lightgray;
+    border-color: lightgray;
+    color: #0070d1;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.ms_experience-img-dx{
+    height: 100%;
+}
+
+/*---------------------COMMON GRID STYLE-------------------- */
+
+/* ---------------ESPLORA-------per section PS4 e Sconti*/
+
+.esplora{
+    padding: 4rem 0;
+}
+
+.ms_top-text{
+    text-align: center;
+    padding-bottom: 2rem;
+
+}
+.esplora h2{
+    font-size: 35px;
+}
+
+.esplora h3{
+    color: gray;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    padding: 1rem 0;
+}
+
 
 /* -*-*-*-*-*-*-*-*-*-*-*-*HEADER-*-*-*-*-*-*-*-*-*-*-*-*  */
 
@@ -180,21 +243,12 @@ header ul{
 
 /* -------------------------Section Banner Returnal */
 .ms_returnal{
-   
     background-image: url(../img/jumbo-bg.png);
 }
 
 /* -------------------------------------Section Cards */
-.sect-card{
+.sect-cards{
     padding: 2.5rem 0;
-}
-
-.ms_card{
-    padding: 0.5rem 0;
-}
-
-.ms_card img{
-    border-radius: 0.8rem;
 }
 
 /* ---------------------------------------Section Play */
@@ -281,56 +335,23 @@ header ul{
     font-size: 30px;
 }
 
-/* -----------------------------------Esplora */
+/* --------------------------------PS4 */
 
-.esplora{
-    padding: 2.5rem 0;
-}
 
-.ms_top-text{
-    text-align: center;
-    padding-bottom: 2rem;
-
-}
-.esplora h2{
-    font-size: 35px;
-}
-
-.esplora h3{
-    color: gray;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 35px;
-    padding: 1rem 0;
-}
 /* -------------------------------Plus */
-
 .plus{
     background-color: grey;
-    height: 350px;
 }
 
-.img-plus{
-    width: 60%;
-    height: 100%;
-    padding-top: 2rem;
+/* -------------------------------Sconti */
 
-}
 
-.plus-card p{
-    padding: 2rem 0;
-}
-.ms_plus-btn{
-    background-color: lightgray;
-    border-color: lightgray;
-    color: #0070d1;
-    border-radius: 25px;
-    font-weight: bold;
-}
 
-.monster{
-    height: 100%;
-}
+
+
+
+
+
 
 
 @media all and (min-width: 576px){
@@ -341,18 +362,18 @@ header ul{
     .ms_object{
         display: block;
     }
-    .plus{
-        height: 263vh;
+    .ms_experience{
+        height: fit-content;
     }
-    .img-plus{
+    .ms_experience-img-sx{
         width: 65%;
+        padding-top: 1rem;
+
     }
-    .plus-card p{
+    .ms_experience-card p{
         padding: 1rem 0;
     }
 
-}
-@media all and (min-width: 992px){
 }
 
 
@@ -365,6 +386,10 @@ header ul{
 
     .game-name img{
         width: 65%;
+    }
+
+    .ms_experience-img-sx{
+        padding-top: 4.5rem;
     }
 
 
