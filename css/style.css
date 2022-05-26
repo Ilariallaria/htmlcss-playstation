@@ -346,9 +346,20 @@ header ul{
 /* -------------------------------Sconti */
 
 
+/* -------------------------------PlayNow */
+
+.play-now{
+    background-color: #161c3b;
+}
 
 
+.play-now p{
+    color: white;
+}
 
+.ms_txt-black{
+    color: black;
+}
 
 
 
