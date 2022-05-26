@@ -368,14 +368,25 @@ header ul{
 
 /* -------------------------------Social Media */
 
+/* -*-*-*-*-*-*-*-*-*-* FOOTER *-*-*-*-*-*-*-*-*-*-*-*  */
 
 
 
 
-@media all and (min-width: 576px){
 
-}
 
+
+
+
+
+
+
+
+
+
+
+
+/* -*-*-*-*-*-*-*-*-*-*-*-* SCREEN *-*-*-*-*-*-*-*-*-*-*-*/
 @media all and (min-width: 768px){
     .ms_object{
         display: block;
@@ -392,6 +403,10 @@ header ul{
         padding: 1rem 0;
     }
 
+    .esplora {
+        max-width: 768px;
+        margin: 0 auto;
+    }
 }
 
 
