@@ -17,10 +17,6 @@ main{
 }
 
 /* COMMON */
-.row {
-    --bs-gutter-x: 2.5rem;
-    --bs-gutter-y: 0;
-}
 
 img{
     width: 100%;
@@ -62,7 +58,7 @@ color: #0070d1;
     width: 93%;
     position: absolute;
     bottom: 3rem;
-    left: 0.7rem;
+    left: 0rem;
 }
 
 .game-name{
@@ -107,6 +103,7 @@ color: #0070d1;
 /* bottom */
 .ms_header-bottom{
     height: 80px;
+    background-color: white;
 }
 
 .logo-ps{
@@ -152,6 +149,10 @@ header ul{
     text-align: right;
 }
 
+.main-menu-dx .ul-dx{
+    justify-content: right;
+}
+
 .ms_header-btn{
     background-color: #363636;
     color: white;
@@ -189,7 +190,7 @@ header ul{
 }
 
 .ms_card{
-    padding: 0.5rem;
+    padding: 0.5rem 0;
 }
 
 .ms_card img{
@@ -199,6 +200,7 @@ header ul{
 /* ---------------------------------------Section Play */
 
 .play{
+    padding-top: 3rem;;
     text-align: center;
 }
 
@@ -224,9 +226,11 @@ header ul{
 /* ----------------------------------------Section Console */
 .console{
     padding-top: 2.5rem;
+    padding-bottom: 1rem;
 }
 .console h2{
     font-size: 40px;
+    padding-top: 3.5rem;
 }
 .console p{
     color: gray;
@@ -234,7 +238,7 @@ header ul{
     font-weight: 600;
 }
 
-.ms_console-btn{
+.ms_blue-btn{
     color: white;
     background-color: #0070d1;
     border-color: #0070d1;
@@ -245,7 +249,7 @@ header ul{
     filter:opacity(0.7);
 }
 .ms_selected{
-    border-bottom: 1px solid #0070d1;
+    border-bottom: 2px solid #0070d1;
 }
 
 .ms_object{
@@ -265,20 +269,68 @@ header ul{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
+/* ----------------------------------Nuove Uscite */
 
+.nuove-uscite{
+    padding: 2.5rem 0;
+    color: white;
+    background-color: #1f1f1f;
+}
 
+.nuove-uscite h2{
+    font-size: 30px;
+}
 
+/* -----------------------------------Esplora */
 
+.esplora{
+    padding: 2.5rem 0;
+}
 
+.ms_top-text{
+    text-align: center;
+    padding-bottom: 2rem;
 
+}
+.esplora h2{
+    font-size: 35px;
+}
 
+.esplora h3{
+    color: gray;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    padding: 1rem 0;
+}
+/* -------------------------------Plus */
 
+.plus{
+    background-color: grey;
+    height: 350px;
+}
 
+.img-plus{
+    width: 60%;
+    height: 100%;
+    padding-top: 2rem;
 
+}
 
+.plus-card p{
+    padding: 2rem 0;
+}
+.ms_plus-btn{
+    background-color: lightgray;
+    border-color: lightgray;
+    color: #0070d1;
+    border-radius: 25px;
+    font-weight: bold;
+}
 
-
-
+.monster{
+    height: 100%;
+}
 
 
 @media all and (min-width: 576px){
@@ -289,8 +341,21 @@ header ul{
     .ms_object{
         display: block;
     }
+    .plus{
+        height: 263vh;
+    }
+    .img-plus{
+        width: 65%;
+    }
+    .plus-card p{
+        padding: 1rem 0;
+    }
 
 }
+@media all and (min-width: 992px){
+}
+
+
 
 @media all and (min-width: 1200px){
 
@@ -301,4 +366,6 @@ header ul{
     .game-name img{
         width: 65%;
     }
+
+
 }
