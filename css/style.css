@@ -38,9 +38,9 @@ li{
     font-size: 13px;
     padding-left: 0.3rem;
 }
-.chevron-down:hover{
+/* .chevron-down:hover{
 color: #0070d1;
-}
+} */
 
 .ms_card{
     padding: 0.5rem 0;
@@ -59,18 +59,16 @@ color: #0070d1;
     width: 100%;
     height: 570px;
     background-color: bisque;
-    position: relative;
     background-size: cover;
     background-position: bottom;
     max-width: 100%;
-    color:white
+    color:white;
+    
 }
 
 .sponsored-content{
     width: 93%;
-    position: absolute;
-    bottom: 3rem;
-    left: 0rem;
+    padding-top: 270px;
 }
 
 .game-name{
@@ -94,7 +92,7 @@ color: #0070d1;
     border-radius: 25px;
     font-weight: bold;
 }
-/*---------EXPERIENCE--per section Plus e Play-Now */
+/*---------EXPERIENCE--per section Plus, Play-Now e Social Media */
 .ms_experience{
     height: 350px;
 }
@@ -169,6 +167,14 @@ color: #0070d1;
     background-color: white;
 }
 
+.ms_header-bottom li:hover a,
+.ms_header-bottom li:hover span,
+.ms_header-bottom li:hover i{
+    color: #0070d1;
+    cursor: pointer;
+}
+
+
 .logo-ps{
     width: 65px;
     height: 70px;
@@ -188,6 +194,10 @@ color: #0070d1;
     cursor: pointer;
 }
 
+.burgher i:hover{
+    color: #0070d1;
+    border-color: #0070d1;
+}
 .main-menu-sx{
     height: 100%;
 }
@@ -232,10 +242,6 @@ header ul{
 #ms_lens{
     font-size: 30px;
     text-align: right;
-}
-
-#ms_lens:hover{
-    color: #0070d1;
 }
 
 
@@ -311,11 +317,6 @@ header ul{
     font-weight: 700;
 }
 
-.ms_trade{
-    font-size: 10px;
-}
-
-
 /* -------------------------------Section Banner It-Take-Two */
 
 .ms_it-takes-two{
@@ -336,7 +337,11 @@ header ul{
 }
 
 /* --------------------------------PS4 */
-
+.ps4 sup{
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: -12px;
+}
 
 /* -------------------------------Plus */
 .plus{
@@ -360,6 +365,8 @@ header ul{
 .ms_txt-black{
     color: black;
 }
+
+/* -------------------------------Social Media */
 
 
 
